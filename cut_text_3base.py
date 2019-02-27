@@ -1,8 +1,8 @@
 #!/user/bin/env python
 #cut_text_3base
 #import re
-#sequence = input('Please Enter the sequence:')
-sequence = 'GATGGAACTTGACTACGTAAATTA'
+sequence = input('Please Enter the sequence:')
+#sequence = 'GATGGAACTTGACTACGTAAATTA'
 sequence_list = list(sequence)
 list_3base = []
 if  len(sequence)%3 == 0:
